@@ -37,7 +37,8 @@ header p{
   margin-right: auto;
 }
 .bloque{
-  margin-top:60px;
+  margin-top:45px;
+  padding-right: 30px;
 }
 .formacion{
   display: inline-block;
@@ -53,6 +54,19 @@ header p{
 .foto img{
   width: 75%;
   margin: 0 auto;
+}
+.experiencia{
+  display: inline-block;
+  width: 68%;
+  vertical-align: top;
+}
+.habilidades{
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+.habilidades ul{
+  margin-left:30px;
 }
 dl dt{
   font-size: 22px;
