@@ -38,7 +38,7 @@ links.forEach(function(link){
 
     //retardar redireccionamiento
     setTimeout(function(){
-      location.href="/boletines ";
+      location.href="/boletines";
     },700)
 
   });
