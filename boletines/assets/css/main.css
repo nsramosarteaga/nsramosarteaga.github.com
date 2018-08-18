@@ -148,6 +148,7 @@ img{
   }
   .content{
     padding: 1.8em;
+    overflow: auto;
   }
 }
 
