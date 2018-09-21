@@ -80,6 +80,11 @@ footer{
   margin-left:30px;
   list-style: none;
 }
+
+.bloque.social-accounts{
+  margin-top: 5px;
+}
+
 .social-accounts ul{
   list-style: none;
   display: flex;
