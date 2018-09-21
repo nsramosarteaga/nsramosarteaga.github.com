@@ -25,7 +25,13 @@ header p{
   width: 400px;
   font-weight: 200;
 }
-
+footer{
+  background-color: #071826;
+  color:#F2F2F0;
+  text-align: center;
+  padding: 16px;
+  min-height: 80px;
+}
 .eslogan{
   background-color: #567D8C;
   color:#F2E3D5;
@@ -35,10 +41,9 @@ header p{
 
 .contenido{
   width: 900px;
-  height: 200px;
+  min-height: 200px;
   margin-left: auto;
   margin-right: auto;
-
 }
 .bloque{
   margin-top:45px;
@@ -49,6 +54,7 @@ header p{
   display: inline-block;
   width: 68%;
   vertical-align: top;
+  margin-top: 3em;
 }
 .foto{
   display: inline-block;
@@ -72,6 +78,20 @@ header p{
 }
 .habilidades ul{
   margin-left:30px;
+  list-style: none;
+}
+.social-accounts ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-accounts ul li{
+  padding: 0 4em;
+}
+.social-accounts ul a{
+  color: #F2F2F0;
 }
 dl dt{
   font-size: 22px;
