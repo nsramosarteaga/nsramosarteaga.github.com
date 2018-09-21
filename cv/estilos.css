@@ -10,7 +10,7 @@ header{
 }
 h1{
   display: inline-block;
-  width: 400px;
+  width: 100%;
   font-weight: 700;
 }
 section{
@@ -22,7 +22,7 @@ h3{
 }
 header p{
   display: inline-block;
-  width: 400px;
+  width: 100%;
   font-weight: 200;
 }
 footer{
@@ -40,10 +40,8 @@ footer{
 }
 
 .contenido{
-  width: 900px;
-  min-height: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  padding: 1em;
 }
 .bloque{
   margin-top:45px;
@@ -82,7 +80,9 @@ footer{
 }
 
 .bloque.social-accounts{
-  margin-top: 5px;
+  margin: 1em auto 1em;
+  text-align: center;
+  padding: 0px;
 }
 
 .social-accounts ul{
@@ -93,10 +93,15 @@ footer{
 }
 
 .social-accounts ul li{
-  padding: 0 4em;
+  padding: 1em;
 }
 .social-accounts ul a{
   color: #F2F2F0;
+}
+
+.footer-phrase{
+  text-align: left;
+  color: #555;
 }
 dl dt{
   font-size: 22px;
@@ -115,4 +120,20 @@ ul{
 
 ul li{
   margin-top:16px;
+}
+
+
+@media (min-width:900px){
+  h1{
+    width: 400px;
+  }
+  header p{
+    width: 400px;
+  }
+  .contenido{
+    width: 900px;
+  }
+
+
+
 }
